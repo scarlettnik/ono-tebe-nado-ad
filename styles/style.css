@@ -66,9 +66,8 @@
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 23.6px;
+  line-height: 24px;
 }
 
 .mail-address,
@@ -76,7 +75,7 @@
   text-decoration: none;
   display: flex;
   align-self: flex-start;
-  border-bottom: 0.5px solid black;
+  border-bottom: 1px solid black;
 }
 
 .city-address-second,
@@ -84,9 +83,6 @@
   display: flex;
   align-self: flex-start;
 }
-
-/* Элементу с классом cover строго заданы размеры,
-так как это фоновое изображение */
 
 .cover {
   background-image: url(../images/cover.jpg);
@@ -127,14 +123,14 @@
   text-align: start;
   grid-area: start;
   line-height: 115%;
-  margin: 0px 50px;
+  margin: 0 50px;
 }
 
 .aligned-text_center {
   line-height: 100%;
   text-align: center;
   grid-area: center;
-  margin: 0px 95px 0px 65px;
+  margin: 0 95px 0 65px;
   justify-self: center;
 }
 
@@ -142,7 +138,7 @@
   line-height: 70px;
   text-align: end;
   grid-area: end;
-  margin: 0px 50px 0px 50px;
+  margin: 0 50px 0 50px;
 }
 
 .new-letter-spacing {
@@ -150,13 +146,13 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
 .cover__description {
   display: flex;
   justify-content: space-between;
-  margin: 105px 50px 0px 50px;
+  margin: 105px 50px 0 50px;
   padding-bottom: 50px;
 }
 
@@ -177,11 +173,11 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   word-spacing: 17px;
 }
 
-.cover__description-text-new-word-spacing{
+.cover__description-text-new-word-spacing {
   word-spacing: 19px;
 }
 
@@ -193,7 +189,7 @@
 }
 
 .lots {
-  margin: 180px 50px 0px 50px;
+  margin: 180px 50px 0 50px;
   flex-shrink: 0;
 }
 
@@ -315,7 +311,7 @@
 }
 
 .about__title-and-text-wrapper {
-  margin: 101px 0px 0px 25px;
+  margin: 101px 0 0 25px;
   display: grid;
   row-gap: 30px;
 }
@@ -341,7 +337,7 @@
 }
 
 footer {
-  margin: 0px 50px 90px 50px;
+  margin: 0 50px 90px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -380,6 +376,6 @@ footer {
   gap: 48px;
 }
 
-.footer__social-list-item-logo{
+.footer__social-list-item-logo {
   width: 48px;
 }
